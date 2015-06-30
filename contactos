@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+
+<head>
+<meta charset="UTF-8">
+<title> Contactos </title>
+<link rel="icon" type="image/gif" href="../image/logo.ico" />
+<link rel="stylesheet" href="estilos.css" />
+<script type="text/javascript" src="js/form.js"></script>
+
+
+<!--[if lt IE 9]>
+	    	
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+</head>
+
+	
+	
+<body  background="../image/f6.jpg"  text="white">
+
+
+<table>
+<tr>
+<td><a target="_blank" href=https://www.facebook.com/daniel.vinces.92><img src="../image/icon-facebook.png" title="facebook Daniel Vinces" /></a></td>
+<td><a target="_blank" href=https://twitter.com/dmaxvinc><img src="../image/icon-twitter.png" title="Sigueme en Twitter" /></a></td>
+<td><a target="_blank" href=https://plus.google.com/113778448136938912369/posts><img src="../image/icon-google.png" title="Sigueme en google" /></a></td>
+<td><a target="_blank" href=https://www.youtube.com/channel/UC2wewfGIE8J_GgMeTl4pcfg><img src="../image/icon-youtube.png" title="Canal de Youtube"/></a></td>
+</tr>
+</table>
+
+<br/>
+
+<table width="100%" bgcolor="" background="" bordercolor="" cellspacing="5" cellpadding="5">
+<tr>
+<td align="center"><a href="../index.html"><img src="../image/logo.png"></a></td>
+<!--<td align="center"><a href="../index.html"><img src="../botons/boton5.png"></a></td>-->
+<td align="center"><a href="acercademi.html"><img src="../botons/boton1.png"></a></td>
+<td align="center"><a href="galeria.html"><img src="../botons/boton6.png"></a></td>
+<td align="center"><a href="videos.html"><img src="../botons/boton3.png"></a></td>
+<td align="center"><a href="portafolio.html"><img src="../botons/boton4.png"></a></td>
+<td align="center"><a href="contactos.html"><img src="../botons/b4.png"></a></td>
+</tr>
+</table>
+
+<section>
+
+<h2>Contactame</h2>
+
+	
+	<form action="prose-form.php" method="post" class="contact-form"  onsubmit="return validar(this);">				
+			<div class="formulario">
+
+<div class="column">
+
+<label for="nombre">Nombre <span>(requerido)</span></label>
+
+<input type="text" name="nombre" class="form-input" onblur="revisar(this);"/>
+					
+				
+	<label for="email">Email <span>(requerido)</span></label>
+
+<input type="email" name="email" class="form-input" onblur="revisar(this); revisaremail(this);"/>
+					
+				<label for="asunto">Asunto <span>(requerido)</span></label>
+
+<input type="text" name="asunto" class="form-input" onblur="revisar(this);"/>
+
+				</div>
+
+<div class="column">
+
+<label for="mensaje">Mensaje </label>
+
+<textarea name="mensaje" class="form-input" ></textarea>
+			
+</div>				
+				
+		
+<input class="form-btn" type="submit" value="Enviar Mensaje"/>
+
+</div>		
+		
+</form>
+
+</section>
+
+
+
+
+<footer>
+<table align="center" width="100%" >
+<tr>
+<td align="center"><nav><a href="../index.html">Inicio</a> -
+<a href="acercademi.html">Acerca de mi</a> -
+<a href="galeria.html">Galeria</a> -
+<a href="videos.html">Videos</a> -
+Portafolio - 
+<a href="contactos.html">Contactos</a></nav> </td>
+
+</tr>
+<tr><td align="center">Copyright 2015 Daniel Vinces <a href="Dany:danimaxi60@hotmail.com">danimaxi60@hotmail.com</a></td></tr>
+
+</table>
+</footer>
+
+
+
+
+</body>
+
+</html>
