@@ -1,9 +1,9 @@
 <?php
-use PHPUnit\Framework\TestCase;
 
-class StackTest extends TestCase
+
+class  extends  PHPUnit_Framework_TestCase;
 {
-    public function testPushAndPop()
+    public function testOnePlusOne()
     {
         
         $this->assertEquals(1+1,2);
