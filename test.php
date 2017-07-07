@@ -8,9 +8,6 @@ class StackTest extends TestCase
         
         $this->assertEquals(1+1,2);
         
-
-      
-        $this->assertEquals('Home'($title));
     }
 }
 ?>
