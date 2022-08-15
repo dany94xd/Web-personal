@@ -49,6 +49,11 @@ body
 
 }
 
+#regresar{
+    text-align: center;
+    align-items: center;
+}
+
 .profileText .imgBx {
     position: relative;
     width: 200px;
