@@ -49,6 +49,11 @@ body
 
 }
 
+
+.textBx h3 a {
+    color: #fff; text-decoration: none; 
+}
+
 #regresar{
     text-align: center;
     align-items: center;
