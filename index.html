@@ -263,22 +263,26 @@
                     <h2>Hey! Contáctame</h2>
                     <p>Envíame un mensaje con tu requerimiento.</p>
                 </div>
-                <div class="contactForm">
-                    <div class="row">
-                        <input type="text" name="" placeholder="Nombres">
-                        <input type="text" name="" placeholder="Apellidos">
+                <form action="send.php" method="post">
+                    <div class="contactForm">
+                        <div class="row">
+                            <input type="text" name="nombre" placeholder="Nombres" id="nombre" required>
+                            <input type="text" name="apellido" placeholder="Apellidos" id="apellido" required>
+                        </div>
+                        <div class="row">
+                            <input type="text" name="correo" placeholder="correo@example.com" id="correo" required>
+                            <input type="text" name="celular" placeholder="Celular" id="celular" required>
+                        </div>
+                        <div class="row2">
+                            <textarea  name='mensaje' placeholder="Mensaje" id="mensaje" required></textarea>
+                        </div>
+                        <div class="row2">
+                            <input type="submit" name="" placeholder="Enviar">
+                        </div>
                     </div>
-                    <div class="row">
-                        <input type="text" name="" placeholder="Correo">
-                        <input type="text" name="" placeholder="Celular">
-                    </div>
-                    <div class="row2">
-                        <textarea placeholder="Mensaje"></textarea>
-                    </div>
-                    <div class="row2">
-                        <input type="submit" name="" placeholder="Enviar">
-                    </div>
-                </div>
+
+                </form>
+                
             </section>
 
             <!--Copyright Text-->
